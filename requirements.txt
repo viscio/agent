@@ -1,0 +1,7 @@
+aiohttp>=3.9,<4
+python-dotenv>=1.0,<2
+apscheduler>=3.10,<4
+openai>=1.40,<2
+microsoft-agents-hosting-aiohttp
+botbuilder-core>=4.15,<5
+tzdata

@@ -1,0 +1,18 @@
+debug Telemetry: agents-playground-cli/cliStart {"cleanProperties":{"isExec":"true","argv":"<REDACTED: user-file-path>/bin/node,/usr/local/bin/teamsapptester,start"}}
+
+log Listening on 56150
+log Microsoft 365 Agents Playground is being launched for you to debug the app: http://localhost:56150
+debug started web socket client
+debug started web socket client
+log Waiting for connection of endpoint: http://127.0.0.1:3978/api/messages
+log waiting for 1 resources: http://127.0.0.1:3978/api/messages
+log wait-on(2274435) complete
+log Events recording disabled.
+debug Telemetry: agents-playground-server/eventsRecording {"cleanProperties":{"enabled":"false"}}
+
+debug Telemetry: agents-playground-server/getConfig {"cleanProperties":{"internalConfig":"{\"locale\":\"en-US\",\"localTimezone\":\"Europe/Rome\",\"channelId\":\"msteams\",\"debugConfig\":{\"eventsRecordingEnabled\":false}}"}}
+
+debug Telemetry: agents-playground-server/sendActivity {"cleanProperties":{"activityType":"installationUpdate","conversationId":"f49b599e-d71c-4154-8682-52eba3de2e5d","headers":"{\"x-ms-agents-playground\":\"true\"}"}}
+
+debug Telemetry: agents-playground-server/sendActivity {"cleanProperties":{"activityType":"conversationUpdate","conversationId":"f49b599e-d71c-4154-8682-52eba3de2e5d","headers":"{\"x-ms-agents-playground\":\"true\"}"}}
+
